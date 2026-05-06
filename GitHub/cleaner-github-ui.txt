@@ -1,0 +1,64 @@
+! Title: Cleaner GitHub UI
+! Description: Removes unnecessary clutter and upselling in GitHub web UI.
+! Homepage: https://github.com/jartf/ublock-lists
+! Last modified: 2026-05-06
+! License: MIT
+
+!------------------ Homepage ------------------!
+
+! "Try GitHub Copilot" on unlogged in homepage
+github.com##.js-hero-action.CtaForm-nextToFormAction
+
+! Copilot link on footer
+github.com##li.tmp-mb-3.lh-condensed:has-text(Copilot)
+
+! Copilot button on top bar
+github.com##.CopilotItems-module__Wrapper__BFG9q
+
+
+!------------------ Site-wide ------------------!
+
+! Copilot settings on profile
+github.com##li.prc-ActionList-ActionListItem-So4vC:has-text(Copilot)
+
+! Enterprise upselling on profile
+github.com##li.prc-ActionList-ActionListItem-So4vC:has-text(Try Enterprise)
+
+! Copilot chat box on homepage
+github.com##.copilotPreview__container
+
+! Create "New agent session"
+github.com##li.prc-ActionList-ActionListItem-So4vC:has-text(agent)
+
+! "Chat with Copilot" on search bar
+github.com##li.ActionList-sectionDivider:has-text(Copilot)
+
+!------------------ Settings pages ------------------!
+
+! github.com/settings/copilot/features > Copilot ad for free users
+github.com##.rounded-3.border.color-bg-subtle.tmp-mb-4.start-copilot-banner
+||github.githubassets.com/images/modules/copilot/copilot-dark.png$image
+
+! github.com/settings/copilot/features > Copilot prompt for premium users
+github.com##.d-flex.flex-wrap.gap-2
+github.com##.color-fg-muted.tmp-mb-3
+
+! github.com/settings/billing/licensing > Upgrade button
+github.com##.Button.Button--small.Button--primary
+github.com##.Subhead-actions > .Button.Button--small.Button--secondary
+
+! github.com/settings/billing/licensing > Enterprise upselling
+github.com##div.blankslate-action:nth-of-type(1)
+
+!------------------ Other GitHub sites ------------------!
+
+! Copilot on support page
+support.github.com##[data-fs="copilot_chat_nav"]
+
+! Ask Copilot on documentation page
+docs.github.com###ask-ai-result-container
+docs.github.com#?#.prc-ActionList-GroupHeadingWrap-pfbd9:has-text(Ask Copilot)
+
+! Copilot on blog page
+github.blog##.Button[href="https://github.com/features/copilot"]
+
