@@ -11,8 +11,8 @@
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ! Expires: 1 day
-! Last modified: 20 May 2026 16:37 UTC
-! Version: 2026.0520.1637.48
+! Last modified: 28 May 2026 10:23 UTC
+! Version: 2026.0528.1023.30
 ! Syntax: uBlock
 ! Number of latin TLDs: 294 - punycode TLDs: 151
 !
@@ -52,7 +52,7 @@
 ||cash^$doc,domain=~doe.cash|~redtiger.cash|~vitunleija.cash
 ||casino^$doc
 ||cc^$doc,domain=~10gen.cc|~adguard-vpn.cc|~akami-solutions.cc|~arduino.cc|~clashofmagic.cc|~coolkit.cc|~coopoo.cc|~crcon.cc|~datapump.cc|~dhilosnetworks.cc|~dict.cc|~fanbox.cc|~fiedler.cc|~fito.cc|~forestapp.cc|~frontrow.cc|~godoflove.cc|~imgus.cc|~is.cc|~itead.cc|~kktix.cc|~libstc.cc|~lilygo.cc|~lurl.cc|~mydaddy.cc|~myppt.cc|~nssm.cc|~postimg.cc|~ppt.cc|~pravatar.cc|~pretendo.cc|~ptt.cc|~pttweb.cc|~rapha.cc|~rapidcdn.cc|~reurl.cc|~road.cc|~rutracker.cc|~shottr.cc|~silca.cc|~sneakpeek.cc|~theradio.cc|~toxicland.cc|~ultra.cc|~ultracloud.cc|~vern.cc|~vocus.cc|~wallhaven.cc|~yipee.cc|~yz168.cc|~zcyph.cc
-||center^$doc,domain=~mein-kunden.center|~oh.center|~priv.center|~relaxx.center
+||center^$doc,domain=~found.center|~mein-kunden.center|~oh.center|~priv.center|~relaxx.center
 ||ceo^$doc
 ||cf^$doc,domain=~google.cf
 ||cfd^$doc
@@ -142,7 +142,7 @@
 ||guru^$doc,domain=~bahn.guru|~base64.guru|~crontab.guru|~greenlight.guru|~jav.guru|~ludwig.guru|~mags.guru|~tilde.guru|~watcher.guru|~webcal.guru
 ||hair^$doc
 ||haus^$doc,domain=~lunar.haus
-||health^$doc,domain=~sca.health
+||health^$doc,domain=~flo.health|~sca.health
 ||healthcare^$doc,domain=~severance.healthcare
 ||help^$doc,domain=~crisp.help|~fastmail.help|~gorgias.help|~intercom.help|~kustomer.help|~pixiv.help
 ||hl.cn^$doc,domain=~lzk.hl.cn
@@ -163,7 +163,7 @@
 ||lat^$doc
 ||legal^$doc,domain=~doctolib.legal|~wbs.legal
 ||lgbt^$doc,domain=~lex.lgbt|~mint.lgbt|~tech.lgbt
-||life^$doc,domain=~2ch.life|~billo.life|~circles.life|~colorgame.life|~digitalcitizen.life|~fami.life|~iboost.life|~lifetime.life|~loveinfaith.life|~stepone.life|~via.life|~yiff.life
+||life^$doc,domain=~2ch.life|~billo.life|~circles.life|~colorgame.life|~digitalcitizen.life|~fami.life|~iboost.life|~lifetime.life|~loveinfaith.life|~opentix.life|~stepone.life|~via.life|~yiff.life
 ||lifestyle^$doc
 ||living^$doc
 ||llc^$doc,domain=~ratcloud.llc
@@ -195,7 +195,7 @@
 ||navy^$doc
 ||new^$doc,domain=~bolt.new|~doc.new|~drawing.new|~form.new|~git.new|~lecture.new|~postgres.new|~sheet.new|~site.new|~slide.new
 ||ng^$doc,domain=~coupa.ng|~google.com.ng
-||ninja^$doc,domain=~clash.ninja|~poe.ninja|~protomedia.ninja|~tgtg.ninja
+||ninja^$doc,domain=~clash.ninja|~giveaway.ninja|~poe.ninja|~protomedia.ninja|~tgtg.ninja
 ||observer^$doc,domain=~project2025.observer
 ||okinawa^$doc
 ||ong^$doc
@@ -247,14 +247,14 @@
 ||science^$doc,domain=~amazon.science|~canonn.science|~hal.science|~wander.science
 ||sew^$doc
 ||sexy^$doc,domain=~privacy.sexy|~terminal.sexy
-||shop^$doc,domain=~11ts.shop|~30grad.shop|~4id.shop|~aloedent.shop|~axisms.shop|~buergerspital.shop|~chessvibes.shop|~cineorder.shop|~der-marmeladenladen.shop|~derweinladen.shop|~domainname.shop|~domene.shop|~durst.shop|~elbsand.shop|~epicdesk.shop|~eventix.shop|~freshtorge.shop|~frontiers.shop|~funk-dichtungstechnik.shop|~geekchic.shop|~grnk.shop|~grog.shop|~henssler.shop|~kalypso.shop|~layers.shop|~majblomman.shop|~munu.shop|~music-merchant.shop|~myshopline.shop|~narpy.shop|~neurosama.shop|~nocut.shop|~nordland.shop|~owl-dampfer.shop|~oxiline.shop|~prohibited.shop|~scayle.shop|~schweden.shop|~scorpions.shop|~sentry.shop|~seyffer.shop|~swedish-supplements.shop|~terminal.shop|~urlbluemedia.shop|~weinbibliothek.shop|~weinwunder.shop|~wielrenner.shop|~winefactory.shop|~xn--dnemark-5wa.shop
+||shop^$doc,domain=~11ts.shop|~30grad.shop|~4id.shop|~aloedent.shop|~axisms.shop|~buergerspital.shop|~chessvibes.shop|~cineorder.shop|~der-marmeladenladen.shop|~derweinladen.shop|~domainname.shop|~domene.shop|~durst.shop|~elbsand.shop|~epicdesk.shop|~eventix.shop|~freshtorge.shop|~frontiers.shop|~funk-dichtungstechnik.shop|~geekchic.shop|~grnk.shop|~grog.shop|~gurkistan.shop|~henssler.shop|~kalypso.shop|~layers.shop|~majblomman.shop|~munu.shop|~music-merchant.shop|~myshopline.shop|~narpy.shop|~neue.shop|~neurosama.shop|~nocut.shop|~nordland.shop|~owl-dampfer.shop|~oxiline.shop|~prohibited.shop|~scayle.shop|~schweden.shop|~scorpions.shop|~sentry.shop|~seyffer.shop|~swedish-supplements.shop|~terminal.shop|~urlbluemedia.shop|~weinbibliothek.shop|~weinwunder.shop|~wielrenner.shop|~winefactory.shop|~xn--dnemark-5wa.shop
 ||shopping^$doc
 ||show^$doc,domain=~camz.show|~j.show
 ||site^$doc,domain=~additive-apps.site|~aftermath.site|~anonimayzer.site|~bio.site|~canva.site|~claude.site|~edgeone.site|~fbsmarthome.site|~gov-img.site|~heimdall.site|~heyflow.site|~i5i.site|~kaylees.site|~leafbrowser.site|~miteru.site|~notion.site|~onrocket.site|~platformsh.site|~privacy-test-pages.site|~reddit-doesnt-like-this.site|~shopapps.site|~silvatica.site|~srht.site|~toast.site|~tst.site|~wishonly.site|~wolow.site|~wpdns.site
 ||skin^$doc
 ||solar^$doc,domain=~forecast.solar|~optimizer.solar
 ||soy^$doc
-||space^$doc,domain=~ariadne.space|~blinko.space|~cslogs.space|~dragonscave.space|~drgns.space|~embed-player.space|~filesafe.space|~hf.space|~httpjames.space|~hullseals.space|~hyper.space|~infosec.space|~ippen.space|~jetbrains.space|~keyboard-test.space|~latent.space|~link.space|~mapstodon.space|~melmac.space|~mempool.space|~metahub.space|~momonster.space|~nitter.space|~nuvioapp.space|~ocr.space|~oldbytes.space|~qwik.space|~roguecorp.space|~scurra.space|~searx.space|~slashtw.space|~takeb1nzyto.space|~tapframe.space|~telegram.space|~truepeople.space|~uexcorp.space
+||space^$doc,domain=~ariadne.space|~blinko.space|~cslogs.space|~dragonscave.space|~drgns.space|~embed-player.space|~filesafe.space|~hf.space|~httpjames.space|~hullseals.space|~hyper.space|~infosec.space|~ippen.space|~jetbrains.space|~keyboard-test.space|~latent.space|~link.space|~mapstodon.space|~melmac.space|~mempool.space|~metahub.space|~momonster.space|~nitter.space|~nuvioapp.space|~ocr.space|~oldbytes.space|~pod.space|~qwik.space|~roguecorp.space|~scurra.space|~searx.space|~slashtw.space|~takeb1nzyto.space|~tapframe.space|~telegram.space|~truepeople.space|~uexcorp.space
 ||sport^$doc,domain=~dyn.sport
 ||srl^$doc
 ||store^$doc,domain=~adidashardware.store|~beyondagency.store|~bigtimerush.store|~bigtimerushuk.store|~cleanmasters.store|~cnckitchen.store|~ettoresoftware.store|~fbits.store|~g-h.store|~glitchproductions.store|~hacksmith.store|~heavysaurus.store|~hom.store|~immich.store|~iqunix.store|~myexpresscarwash.store|~myshopline.store|~pbshop.store|~peugeot.store|~roble.store|~rokomari.store|~shoplazza.store|~shopware.store|~sofascore.store|~stan.store|~tatemcraeeu.store|~tatemcrae.store|~timberjacks.store
@@ -301,7 +301,7 @@
 ||win^$doc,domain=~activated.win|~communities.win|~debloat.win|~ios-countdown.win|~patriots.win|~vaultcord.win
 ||wine^$doc,domain=~nostr.wine
 ||work^$doc,domain=~doesmycode.work|~elphago.work|~frame.work|~koding.work|~mirror.work|~schueller.work|~spiegel.work|~starlightnet.work
-||world^$doc,domain=~bevisioneers.world|~boo.world|~calckey.world|~camhub.world|~edgecdn.world|~heated.world|~ift.world|~juice.world|~lemmings.world|~lemmy.world|~mastodon.world|~maxwellcat.world|~meming.world|~mnetplus.world|~mnr.world|~shitposter.world|~unidays.world|~userstyles.world|~welocal.world|~wetdry.world|~wiz.world
+||world^$doc,domain=~betterme.world|~bevisioneers.world|~boo.world|~calckey.world|~camhub.world|~edgecdn.world|~heated.world|~ift.world|~juice.world|~lemmings.world|~lemmy.world|~mastodon.world|~maxwellcat.world|~meming.world|~mnetplus.world|~mnr.world|~shitposter.world|~unidays.world|~userstyles.world|~welocal.world|~wetdry.world|~wiz.world
 ||wtf^$doc,domain=~akko.wtf|~bgp.wtf|~cyber.wtf|~e-mail.wtf|~fx.wtf|~ip.wtf|~jascha.wtf|~jsdate.wtf|~lemmy.wtf|~myip.wtf|~tigress.wtf|~wxx.wtf|~xo.wtf
 ||xin^$doc
 ||xx.kg^$doc
