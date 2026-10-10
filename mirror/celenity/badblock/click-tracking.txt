@@ -1,5 +1,5 @@
 ! Title: 🖱️ BadBlock - Click Tracking/Referral Domains (ABP)
-! Version: 02April2026v1
+! Version: 04October2026v1
 ! Expires: 1 hour
 ! Description: Block click tracking!
 ! Homepage: https://badblock.celenity.dev
@@ -17,6 +17,7 @@
 ||amplitude-studios.us12.list-manage.com^$document,third-party
 ||amzn.eu^$document,third-party
 ||amzn.to^$document,third-party
+||apkudo.navattic.com^$document,third-party
 ||apple.news^$document,third-party
 ||autolinkmaker.itunes.apple.com^$document,third-party
 ||awstrack.me^$document,third-party
@@ -49,12 +50,15 @@
 ||click.virt.s4.exacttarget.com^$document,third-party
 ||clicks.cameo.com^$document,third-party
 ||clicks.cameo.com.cdn.cloudflare.net^$document,third-party
+||clicks.eventbrite.com^$document,third-party
 ||clicks.mozilla.org^$document,third-party
 ||cmail19.com^$document,third-party
 ||cname.createsend.com^$document,third-party
 ||coherentpath.link^$document,third-party
 ||cp.oldnavy.com^$document,third-party
 ||ct.sendgrid.net^$document,third-party
+||data.m.starbucks.com^$document,third-party
+||data.m.starbucks.com.data.adobedc.net^$document,third-party
 ||dlvr.it^$document,third-party
 ||ds-global3.l7.search.ystg1.b.yahoo.com^$document,third-party
 ||e.customeriomail.com^$document,third-party
@@ -104,6 +108,7 @@
 ||mailtrackemailout1.namecheap.com^$document,third-party
 ||mjt.lu^$document,third-party
 ||mx.technolutions.net^$document,third-party
+||my.manychat.com^$document,third-party
 ||network.bazaarvoice.com^$document,third-party
 ||notifications.google.com^$document,third-party
 ||outgoing.nonprod.webservices.mozgcp.net^$document,third-party
