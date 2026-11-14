@@ -1,15 +1,15 @@
 [Adblock Plus]
-! Title: HaGeZi's DynDNS Blocklist
-! Description: Blocks dynamic DNS services to protect against malicious use in phishing campaigns and others.
+! Title: HaGeZi's DynDNS - guards against dynamic DNS abuse!
+! Description: Blocks dynamic DNS services that get abused for phishing campaigns and other shady activity.
 ! Homepage: https://github.com/hagezi/dns-blocklists
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
-! Expires: 1 day
-! Last modified: 19 May 2026 16:59 UTC
-! Version: 2026.0519.1659.22
+! Expires: 8 hours
+! Last modified: 10 Nov 2026 23:57 UTC
+! Version: 2026.1110.2357.29
 ! Syntax: AdBlock
-! Number of entries: 1491
+! Number of entries: 1519
 !
 ||dyn.addr.tools^
 ||changeip.co.uk^
@@ -20,7 +20,6 @@
 ||ddns.com.co^
 ||dynamicdns.com.co^
 ||winco.com.br^
-||dyn.dns.he.net^
 ||4040.idv.tw^
 ||ddns.me.uk^
 ||dynamicdns.me.uk^
@@ -28,7 +27,10 @@
 ||dynamicdns.org.uk^
 ||limit.org.uk^
 ||h4g3z1-dyndns.web.app^
+||dyndns.za.org^
 ||0000000000000000000000.com^
+||001www.com^
+||0rg.us^
 ||0x.no^
 ||100mountain.com^
 ||10dv.com^
@@ -54,7 +56,6 @@
 ||3trust.com^
 ||3utilities.com^
 ||404.mn^
-||4cloud.click^
 ||4dq.com^
 ||4khdcamera.com^
 ||4mydomain.com^
@@ -62,16 +63,13 @@
 ||4twenty.us^
 ||64-b.it^
 ||688.org^
-||77qac.com^
 ||77uam.com^
-||77ynd.com^
-||79ama.com^
-||88uan.com^
 ||88zkt.com^
-||99tac.com^
+||aa.am^
 ||abatek.com^
 ||abmetalmecanica.com^
 ||abrdns.com^
+||abuser.eu^
 ||access.ly^
 ||accesscam.org^
 ||acmetoy.com^
@@ -79,7 +77,6 @@
 ||afraid.org^
 ||agropeople.ru^
 ||aintno.info^
-||airdns.org^
 ||airlinemeals.net^
 ||albertn.ru^
 ||allez.la^
@@ -87,14 +84,11 @@
 ||allowed.org^
 ||almostmy.com^
 ||americanunfinished.com^
-||amsprich.com^
 ||anal-slavery.com^
 ||anastasion.com^
 ||aneisa.com^
 ||angelcamddns.com^
-||annaffiare.org^
 ||anondns.net^
-||antongorbunov.com^
 ||any64.de^
 ||anyitsolution.com^
 ||api64.de^
@@ -112,11 +106,12 @@
 ||asuscomm.com^
 ||at-band-camp.net^
 ||ath.cx^
+||atholdinginc.com^
 ||atlantatruckdrivingschool.us^
 ||auraria.org^
+||australia.ai^
 ||authorizeddns.net^
 ||authorizeddns.org^
-||authorizeddns.us^
 ||autoipset.com^
 ||avandns.com^
 ||awiki.org^
@@ -139,7 +134,6 @@
 ||bgdsupport.com^
 ||bhms.com^
 ||bigbluezoo.com^
-||bigmoney.biz^
 ||bine.me^
 ||birdriver.org^
 ||biz.st^
@@ -151,6 +145,7 @@
 ||blogdns.net^
 ||blogdns.org^
 ||blogsite.org^
+||blogsite.xyz^
 ||blogsyte.com^
 ||bloodforthebloodgod.com^
 ||bloom.us^
@@ -167,14 +162,12 @@
 ||briansagar.com^
 ||broke-it.net^
 ||brweb.org^
-||bsn2bsn.com^
 ||bumbleshrimp.com^
 ||burlingtondrywall.com^
 ||buyshouses.net^
 ||byte4byte.com^
 ||cable-modem.org^
 ||camdvr.org^
-||canadascastillo.com^
 ||casacam.net^
 ||cashit.info^
 ||cbopelousas.com^
@@ -187,6 +180,7 @@
 ||changeip.biz^
 ||changeip.co^
 ||changeip.com^
+||changeip.me^
 ||changeip.name^
 ||changeip.net^
 ||changeip.org^
@@ -221,6 +215,7 @@
 ||cloudns.pro^
 ||cloudwatch.net^
 ||cloudxns.net^
+||cmirg.com^
 ||cnstefancelmare.ro^
 ||coalnet.ru^
 ||codns.com^
@@ -233,6 +228,7 @@
 ||con-ip.com^
 ||conditsis.com^
 ||contepsa.com^
+||coplien.org^
 ||corbina.ru^
 ||coreytech.com^
 ||couchpotatofries.org^
@@ -242,11 +238,13 @@
 ||crabdance.com^
 ||crackedsidewalks.com^
 ||crafting.xyz^
+||crazedns.ru^
 ||csproject.org^
 ||cuesinc.com^
 ||cupddns.net^
 ||custom-gaming.net^
 ||cw03.ru^
+||cybertv.tv^
 ||d-n-s.name^
 ||d2g.biz^
 ||dagz.ru^
@@ -262,14 +260,13 @@
 ||ddns.name^
 ||ddns.net^
 ||ddns.us^
-||ddns-dvr.com^
 ||ddns-ip.net^
 ||ddns5.com^
+||ddnsapp.com^
 ||ddnsfree.com^
 ||ddnsgeek.com^
 ||ddnsguru.com^
 ||ddnsking.com^
-||ddnslive.com^
 ||ddnss.ch^
 ||ddnss.de^
 ||ddnss.eu^
@@ -286,13 +283,15 @@
 ||dhs.org^
 ||digikabel.hu^
 ||digitalgroupe.com^
+||dip.jp^
 ||diskstation.eu^
-||diskstation.me^
 ||diskstation.org^
 ||ditchyourip.com^
-||divx.se^
+||dive2.net^
+||diyplans.org^
 ||dlinkddns.com^
 ||dmtr.ru^
+||dn3.co^
 ||dnet.hu^
 ||dnmcoffman.com^
 ||dns.army^
@@ -342,25 +341,23 @@
 ||doesntexist.com^
 ||doesntexist.org^
 ||donhoo.com^
+||donkeyhot.net^
 ||dontexist.com^
 ||dontexist.net^
 ||dontexist.org^
 ||doomdns.com^
 ||doomdns.org^
 ||dougtreadwell.com^
+||doyleandprendergast.com^
 ||dp76.com^
 ||dpcube.com^
 ||dray-dns.de^
 ||drayddns.com^
 ||dropfiles.net^
 ||drunkensailor.org^
-||dscloud.me^
-||dscloud.mobi^
 ||dsmtp.com^
-||dsmynas.com^
-||dsmynas.net^
-||dsmynas.org^
 ||dtdns.com^
+||dtdns.net^
 ||dtdns.org^
 ||dubya.info^
 ||dubya.net^
@@ -439,6 +436,7 @@
 ||dynnamn.ru^
 ||dynns.com^
 ||dyns.be^
+||dyns.cx^
 ||dyns.net^
 ||dynserv.org^
 ||dynssl.com^
@@ -495,6 +493,7 @@
 ||eurotank.ro^
 ||eva.hk^
 ||everton.com^
+||evils.in^
 ||expired-dns.com^
 ||ez-dns.com^
 ||ez-ip.net^
@@ -503,11 +502,9 @@
 ||f-parts.net^
 ||f3322.net^
 ||f3322.org^
+||fagdns.com^
 ||fairuse.org^
 ||falcongreen.com^
-||familyds.com^
-||familyds.net^
-||familyds.org^
 ||fantasyleague.cc^
 ||faqserv.com^
 ||farted.net^
@@ -522,8 +519,12 @@
 ||flashhub.net^
 ||flat4free.com^
 ||flazzard.com^
+||flick2.me^
+||flick2.net^
 ||flnet.org^
 ||flowergardendaycare.com^
+||flyme2.me^
+||flyme2.net^
 ||for-better.biz^
 ||for-more.biz^
 ||for-our.info^
@@ -534,6 +535,7 @@
 ||fortiddns.com^
 ||forumz.info^
 ||fragmentary.info^
+||free-ddns.com^
 ||freeddns.com^
 ||freeddns.org^
 ||freeddns.uk^
@@ -605,10 +607,12 @@
 ||ftpserver.biz^
 ||fuettertdasnetz.de^
 ||fxnxs.com^
+||g2url.com^
 ||gally.jp^
 ||game-host.org^
 ||game-server.cc^
 ||garmanage.com^
+||garypatel.com^
 ||gastright.com^
 ||geekgalaxy.com^
 ||geobattery.com^
@@ -625,6 +629,7 @@
 ||gleeze.com^
 ||global-instr.us^
 ||gluebank.com^
+||go2host.co^
 ||golaud.com^
 ||goldcrestcc.com^
 ||golffan.us^
@@ -644,7 +649,6 @@
 ||gslb.me^
 ||gteksecurity.com^
 ||gtk.cl^
-||guardz.ru^
 ||guild-site.com^
 ||gurcanozturk.com^
 ||gurdit.com^
@@ -703,7 +707,9 @@
 ||homingbeacon.net^
 ||hopto.me^
 ||hopto.org^
+||host2.me^
 ||host2go.net^
+||hostdns.me^
 ||hosthampster.com^
 ||hpc.tw^
 ||hs.vc^
@@ -713,7 +719,6 @@
 ||hulichicken.com^
 ||humorvisite.eu^
 ||hunnur.com^
-||i234.me^
 ||iamallama.com^
 ||ics.tw^
 ||ideasciviles.com^
@@ -740,7 +745,6 @@
 ||invitee.net^
 ||ionexusa.com^
 ||iot64.de^
-||iownyour.biz^
 ||iownyour.org^
 ||ip-ddns.com^
 ||ip-dynamic.com^
@@ -748,6 +752,7 @@
 ||ipnodns.ru^
 ||ipq.co^
 ||iprowave.com^
+||ipupdater.com^
 ||ipv64.de^
 ||ipv64.net^
 ||is-a-anarchist.com^
@@ -857,6 +862,7 @@
 ||joe.dj^
 ||jomblo.asia^
 ||jonward.com^
+||jump2me.com^
 ||jumpingcrab.com^
 ||jundy.org^
 ||jungleheart.com^
@@ -868,9 +874,9 @@
 ||kanda.ru^
 ||kaohsiung.tv^
 ||kck-saratov.ru^
-||keenetic.name^
 ||keine-panik.net^
 ||kellserve.com^
+||kfco.net^
 ||kicks-ass.net^
 ||kicks-ass.org^
 ||klapa.eu^
@@ -896,6 +902,7 @@
 ||leitungsen.de^
 ||leivo.org^
 ||lessmiths.com^
+||letsgo2.me^
 ||level3.net^
 ||lflink.com^
 ||lflinkup.com^
@@ -917,12 +924,13 @@
 ||logisoft-cy.com^
 ||logular.com^
 ||longmusic.com^
+||loophole.site^
 ||loseyourip.com^
 ||lospenitentes.com^
 ||lostgumball.com^
 ||lovethosetrains.com^
 ||lozan.com^
-||luckyweaving.com^
+||lundellnet.com^
 ||macrofox.org^
 ||madhacker.biz^
 ||mao.fi^
@@ -938,6 +946,7 @@
 ||melakaboy.com^
 ||merseine.com^
 ||merseine.org^
+||metadns.cx^
 ||mett.ru^
 ||mexsipel.net^
 ||mgipr.com^
@@ -945,6 +954,7 @@
 ||midjava.com^
 ||migibts.net^
 ||mikata.ru^
+||mikecartwright.net^
 ||mil.nf^
 ||mindhackers.org^
 ||mine.bz^
@@ -994,7 +1004,6 @@
 ||mydissent.net^
 ||mydns.bz^
 ||mydns.jp^
-||myds.me^
 ||myeffect.net^
 ||myftp.biz^
 ||myftp.info^
@@ -1030,7 +1039,6 @@
 ||mysecuritycamera.net^
 ||mysecuritycamera.org^
 ||myserver.org^
-||mysynology.net^
 ||myvnc.com^
 ||mywebworld.info^
 ||mywire.org^
@@ -1039,7 +1047,6 @@
 ||myz.info^
 ||n-e-t.name^
 ||n0p.at^
-||n4t.co^
 ||nard.ca^
 ||nas64.de^
 ||nat-ddns.com^
@@ -1049,8 +1056,11 @@
 ||nerdcamp.net^
 ||nerdpol.ovh^
 ||net-freaks.com^
+||net2me.me^
 ||netcabo.pt^
+||netcraze.pro^
 ||netdorm.com^
+||netea.me^
 ||netlord.de^
 ||netmask.ca^
 ||networkguru.com^
@@ -1058,6 +1068,7 @@
 ||nflfan.org^
 ||nhlfan.net^
 ||ninth.biz^
+||nip.io^
 ||no-domain.name^
 ||no-ip.biz^
 ||no-ip.ca^
@@ -1094,7 +1105,6 @@
 ||ns2.name^
 ||ns3.name^
 ||nsupdate.info^
-||ntdll.top^
 ||nufszone.com^
 ||nx.tc^
 ||ocry.com^
@@ -1134,6 +1144,7 @@
 ||peregrineair.com^
 ||pgafan.net^
 ||phenixs.org^
+||photo-cult.com^
 ||photo-frame.com^
 ||php-dev.net^
 ||pics.mu^
@@ -1153,11 +1164,11 @@
 ||port25.biz^
 ||portfwd.com^
 ||portmap.host^
+||portrelay.com^
 ||possessed.us^
 ||prettyweak.com^
 ||priamaakcia.sk^
 ||pride.moe^
-||pride.ngo^
 ||privatedns.com^
 ||privatedns.org^
 ||privateimport.jp^
@@ -1173,6 +1184,7 @@
 ||ptchat.net^
 ||publicvm.com^
 ||pudim.info^
+||punked.us^
 ||qc.to^
 ||qhigh.com^
 ||qlbv.vn^
@@ -1202,8 +1214,10 @@
 ||root64.de^
 ||roth.ca^
 ||route64.de^
+||routemehome.com^
 ||roxa.org^
 ||rpz.su^
+||rr.nu^
 ||rtam.net^
 ||rum.si^
 ||run.place^
@@ -1272,6 +1286,7 @@
 ||sexxxy.biz^
 ||shacknet.biz^
 ||shacknet.us^
+||shadir.com^
 ||sharkltd.com^
 ||sheatfish.org^
 ||sheepindonesia.org^
@@ -1288,12 +1303,16 @@
 ||sitelutions.com^
 ||skc.su^
 ||skies.tw^
+||skipurl.me^
+||skipurl.org^
 ||slasdot.com^
 ||sleepless.hk^
+||slide2.net^
 ||sline.net^
 ||sly.io^
 ||slyip.net^
 ||smelly.cc^
+||snap2.info^
 ||sne.jp^
 ||socialadhesion.com^
 ||softether.net^
@@ -1305,6 +1324,8 @@
 ||space-to-rent.com^
 ||spacetechnology.net^
 ||spdns.de^
+||spdns.eu^
+||spdns.org^
 ||spdyn.de^
 ||spectrumnet.bg^
 ||spelar.se^
@@ -1316,7 +1337,6 @@
 ||srv64.de^
 ||srvdns.de^
 ||ssitech.bg^
-||ssl443.org^
 ||sslip.io^
 ||ssmailer.com^
 ||star.is^
@@ -1326,6 +1346,7 @@
 ||stocktester.ru^
 ||stoupin.ru^
 ||strangled.net^
+||stroyexpert.org^
 ||stuff-4-sale.org^
 ||stuff-4-sale.us^
 ||stufftoread.com^
@@ -1336,11 +1357,13 @@
 ||surak.kz^
 ||surfnet.ca^
 ||suroot.com^
+||swoop2.me^
 ||swtest.ru^
 ||syno-ds.de^
 ||synology-diskstation.de^
 ||synology-ds.de^
 ||synoserver.com^
+||syntereo.com^
 ||sysadminetworks.com^
 ||system-ns.com^
 ||systes.net^
@@ -1372,6 +1395,7 @@
 ||thingsnewandused.com^
 ||thruhere.net^
 ||tinyrealm.com^
+||tobuy.us^
 ||toh.info^
 ||topdns.com^
 ||topsddns.net^
@@ -1441,6 +1465,7 @@
 ||wakingmoon.com^
 ||wan64.de^
 ||wanip.ch^
+||warp9computers.com^
 ||webhop.biz^
 ||webhop.info^
 ||webhop.me^
@@ -1469,6 +1494,7 @@
 ||writesthisblog.com^
 ||www1.biz^
 ||wwwhost.biz^
+||wwwhost.us^
 ||x24hr.com^
 ||x443.pw^
 ||xddns.de^
@@ -1494,6 +1520,8 @@
 ||zaibar.ro^
 ||zanity.net^
 ||zapto.org^
+||zapto.xyz^
+||zeitr.ch^
 ||zelslonik.info^
 ||zneth.com^
 ||zoneedit.com^
